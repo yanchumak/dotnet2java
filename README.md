@@ -1,12 +1,28 @@
 # Transition dotnet to java developer guide
-## How to use it
+## How to use
 <!-- TOC -->
 - [Preparation](#preparation)
 - [Ecosystem overview](#ecosystem-overview)
+- [Build tools](#build-tool)
+- [Syntax & convention](#syntax-convention)
+- [First console application](#first-app)
+  - [Unit testing](#unit-testing)
+- [Web](#web)
+  - [Spring](#web-spring)
+    - [Spring boot and starters](#web-spring-boot)
+  - [ORM](#web-orm)
+    - [Hibernate](#web-orm-hibernate)
+  - [Template language](#web-template-lang)
+  - [First web application](#web-first-app)
+  - [DTO vs Entity mapping](#web-dto-entity-mapping)
+- [Hexagonal architecture](#hexagonal-architecture)
+- [Memory model](#memory-model)
+- [Concurrency](#concurrency)
+- [Troubleshooting](#troubleshooting)
 <!-- TOC -->
 
 ### Preparation
-1. Download and install required tools and software
+Download and install required tools and software
    1. [Java 11.0.2 (build 11.0.2+9)](https://jdk.java.net/archive/)
       1. Set up JAVA_HOME and add Java bin to path [for Windows](https://www.ibm.com/docs/en/b2b-integrator/5.2?topic=installation-setting-java-variables-in-windows) [for Mac](https://gist.github.com/fabianogoes/bf7aa20b007d8dda1ed2)
       2. Verify. Result of `echo %JAVA_HOME%`(Windows, for Mac use `echo $JAVA_HOME`) `java --version` should be something like this
@@ -32,4 +48,12 @@
          ```
    3. [Java IDE IntelliJ IDEA Community edition](https://www.jetbrains.com/idea/download). [Set up Intellij Idea to use your Java](https://www.jetbrains.com/help/idea/sdk.html#set-up-jdk)
 
-## Ecosystem overview
+### Ecosystem overview
+
+### Build tools
+https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+
+### Syntax & convention
+
+### First console application
+#### Unit testing
