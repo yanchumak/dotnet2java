@@ -1,2 +1,2 @@
 # dotnet2java
-Transition dotnet to java develop guide
+Transition dotnet to java developer guide
