@@ -52,6 +52,7 @@ Download and install required tools and software
 ### Ecosystem overview
 
 Java platform
+
 ![https://www.oracle.com/java/technologies/platform-glance.html](./doc/images/java-platform.png "Java platform")
 
 Comparison with .NET
