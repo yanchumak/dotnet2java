@@ -4,22 +4,26 @@
 - [Preparation](#preparation)
 - [Ecosystem overview](#ecosystem-overview)
 - [Build tools](#build-tool)
+  - [Maven](#build-tool-maven)
 - [Syntax & Style](#syntax-style)
 - [Core](#core)
+    - [Generics](#core-generics)
+    - [Stream API vs LINQ](#core-stream-api)
 - [First console application](#first-app)
   - [Unit testing](#unit-testing)
 - [Web](#web)
-  - [Spring](#web-spring)
+  - [Spring vs ASP.NET](#web-spring)
     - [Spring boot and starters](#web-spring-boot)
   - [ORM](#web-orm)
     - [Hibernate](#web-orm-hibernate)
   - [Template language](#web-template-lang)
   - [First web application](#web-first-app)
-  - [DTO vs Entity mapping](#web-dto-entity-mapping)
-- [Hexagonal architecture](#hexagonal-architecture)
-- [Memory model](#memory-model)
-- [Concurrency](#concurrency)
-- [Troubleshooting](#troubleshooting)
+  - [DTO to Entity mapping](#web-dto-entity-mapping)
+- [Advanced](#advanced)
+  - [Memory model](#advanced-memory-model)
+  - [Concurrency](#advanced-concurrency)
+  - [Troubleshooting](#advanced-troubleshooting)
+  - [Hexagonal architecture](#advanced-hexagonal-architecture)
 <!-- TOC -->
 
 ### Preparation
@@ -60,18 +64,19 @@ Comparison with .NET
 ![https://www.overops.com/blog/clr-vs-jvm-how-the-battle-between-net-and-java-extends-to-the-vm-level](./doc/images/java-vs-dotnet.png "")
 
 
-[JVM more info#1](https://dzone.com/articles/jvm-architecture-explained)
-
-[JVM more info#2](https://docs.oracle.com/javase/specs/jvms/se11/html/jvms-2.html)
+JVM more info
+[link#1](https://dzone.com/articles/jvm-architecture-explained) 
+[link#2](https://docs.oracle.com/javase/specs/jvms/se11/html/jvms-2.html)
 
 ### Build tools
 [Overview](https://www.jrebel.com/blog/java-build-tools-comparison)
 
-[Maven getting Started in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+#### Maven
+[Getting Started in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
-[Maven getting Started in 30 Minutes](https://maven.apache.org/guides/getting-started/index.html)
+[Getting Started in 30 Minutes](https://maven.apache.org/guides/getting-started/index.html)
 
-[Maven lifecycles](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+[Lifecycles](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
 ### Syntax & Style
 [Language basics](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
@@ -86,6 +91,10 @@ Comparison with .NET
 Recommended books
 - [Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-dp-0134685997/dp/0134685997/ref=dp_ob_image_bk)
 - [Modern Java in action](https://www.manning.com/books/modern-java-in-action)
+
+#### Generics
+
+#### Stream API vs LINQ
 
 ### First console application
 
