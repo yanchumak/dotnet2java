@@ -50,10 +50,12 @@ Download and install required tools and software
    3. [Java IDE IntelliJ IDEA Community edition](https://www.jetbrains.com/idea/download). [Set up Intellij Idea to use your Java](https://www.jetbrains.com/help/idea/sdk.html#set-up-jdk)
 
 ### Ecosystem overview
+
 Java platform
 ![https://www.oracle.com/java/technologies/platform-glance.html](./doc/images/java-platform.png "Java platform")
 
 Comparison with .NET
+
 ![https://www.overops.com/blog/clr-vs-jvm-how-the-battle-between-net-and-java-extends-to-the-vm-level](./doc/images/java-vs-dotnet.png "")
 
 
@@ -71,12 +73,6 @@ Comparison with .NET
 [Maven lifecycles](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
 ### Syntax & Style
-
-### Core
-Recommended books
-- [Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-dp-0134685997/dp/0134685997/ref=dp_ob_image_bk)
-- [Modern Java in action](https://www.manning.com/books/modern-java-in-action)
-
 [Language basics](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 
 [Oracle code conventions](https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html)
@@ -84,6 +80,12 @@ Recommended books
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 [JLS(Java language specification)](https://docs.oracle.com/javase/specs/)
+
+### Core
+Recommended books
+- [Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-dp-0134685997/dp/0134685997/ref=dp_ob_image_bk)
+- [Modern Java in action](https://www.manning.com/books/modern-java-in-action)
+
 ### First console application
 
 #### Unit testing
