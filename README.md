@@ -5,15 +5,18 @@
 - [Ecosystem overview](#ecosystem-overview)
 - [Build tools](#build-tool)
   - [Maven](#build-tool-maven)
-- [Syntax & Style](#syntax-style)
+- [Basics](#basics)
 - [Core](#core)
+    - [Collections](#core-collections)
     - [Generics](#core-generics)
     - [Stream API vs LINQ](#core-stream-api)
 - [First console application](#first-app)
-  - [Unit testing](#unit-testing)
+- [Unit testing](#unit-testing)
+- [Logging](#logging)
 - [Web](#web)
   - [Spring vs ASP.NET](#web-spring)
     - [Spring boot and starters](#web-spring-boot)
+    - [12 factor](#web-spring-12-factor)
   - [ORM](#web-orm)
     - [Hibernate](#web-orm-hibernate)
   - [Template language](#web-template-lang)
@@ -78,24 +81,87 @@ JVM more info
 
 [Lifecycles](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
-### Syntax & Style
+### Basics
 [Language basics](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 
 [Oracle code conventions](https://www.oracle.com/java/technologies/javase/codeconventions-introduction.html)
 
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
-[JLS(Java language specification)](https://docs.oracle.com/javase/specs/)
-
 ### Core
 Recommended books
 - [Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-dp-0134685997/dp/0134685997/ref=dp_ob_image_bk)
 - [Modern Java in action](https://www.manning.com/books/modern-java-in-action)
 
+[Tutorial](https://www.digitalocean.com/community/tutorials/core-java-tutorial)
+
+#### Collections
+
+![Collections](./doc/images/java-collections.png)
+[Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/index.html)
+
 #### Generics
+
+[Tutorial](https://docs.oracle.com/javase/tutorial/extra/generics/intro.html)
 
 #### Stream API vs LINQ
 
-### First console application
+[Comparison](https://www.iodigital.com/en/history/foreach/java-and-net-comparing-streams-linq)
 
-#### Unit testing
+Stream API [#1](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html) [#2](https://www.oracle.com/technical-resources/articles/java/architect-streams-pt2.html) 
+
+
+### First console application
+Maven project structure
+
+![](./doc/images/maven-project-structure.png)
+
+`dotnet2java\java\console-app\src\main\java\com\mycompany\app\HelloWorldApp.java`
+```java
+public class HelloWorldApp {
+
+  public static void main(String[] args) {
+    System.out.println("Hello World!");
+  }
+}
+```
+How to run
+
+`mvn clean package` 
+
+`java -cp  ./target/console-app-1.0-SNAPSHOT.jar com.mycompany.app.HelloWorldApp`
+
+
+[A Closer Look at the "Hello World!" Application
+](https://docs.oracle.com/javase/tutorial/getStarted/application/index.html)
+### Unit testing
+
+### Logging
+
+### Web
+[Spring overview](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/overview.html)
+
+![](https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/images/spring-overview.png)
+
+Main concepts
+- [DI & IoC](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html#beans-introduction)
+- [AOP](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/aop.html#aop-introduction)
+- Beans [scopes](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s04.html)
+  ![](https://i.stack.imgur.com/gL8Ky.jpg)
+
+#### Spring vs ASP.NET
+[Comparison](https://medium.com/@putuprema/spring-boot-vs-asp-net-core-a-showdown-1d38b89c6c2d)
+##### Spring boot and starters
+TODO
+##### 12 factor
+[Origin](https://12factor.net/)
+
+[Cloud Native Apps ](https://www.infoq.com/presentations/12factor-spring/)
+
+### Advanced
+
+#### Troubleshooting
+
+[Guide](https://docs.oracle.com/en/java/javase/11/troubleshoot/index.html)
+
+
