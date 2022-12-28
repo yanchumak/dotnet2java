@@ -34,7 +34,6 @@ Write once, run anywhere (c)
   - [Objects mapping](#objects-mapping)
   - [Lombok](#lombok)
 - [Advanced](#advanced)
-  - [Memory model](#memory-model)
   - [Concurrency](#concurrency)
   - [Troubleshooting](#troubleshooting)
   - [Architecture](#Architecture)
@@ -139,6 +138,8 @@ Recommended books
 [Comparison](https://www.iodigital.com/en/history/foreach/java-and-net-comparing-streams-linq)
 
 Stream API [#1](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html) [#2](https://www.oracle.com/technical-resources/articles/java/architect-streams-pt2.html) 
+
+[Optional - avoiding null checks](https://www.oracle.com/technical-resources/articles/java/java8-optional.html)
 
 #### Annotations
 [Tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/)
@@ -310,6 +311,7 @@ TODO
 ##### Entity states
 
 ![](https://vladmihalcea.com/wp-content/uploads/2014/07/jpaentitystates.png)
+
 [Article](https://vladmihalcea.com/wp-content/uploads/2014/07/jpaentitystates.png)
 
 ##### N+1 problem
@@ -330,18 +332,23 @@ Alternative solution can be [records introduced in Java 14](https://docs.oracle.
 
 ### Advanced
 
-#### Memory model
-TODO
-
 #### Concurrency
+
+![](./doc/images/java-concurrent-package.png)
+
 Recommended books
- - [Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+- [Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+
+![](./doc/images/java-thread-state.png)
 
 [Tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html)
-Thread model vs?
+
+[JLS Chapter 17](https://docs.oracle.com/javase/specs/jls/se11/html/jls-17.html)
 
 #### Troubleshooting
 [Guide](https://docs.oracle.com/en/java/javase/11/troubleshoot/index.html)
+
+[VM Options](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
 
 #### Architecture
 Recommended books
