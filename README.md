@@ -7,23 +7,30 @@
   - [Maven](#maven)
 - [Basics](#basics)
 - [Core](#core)
+    - [Objects equality](#objects-equality)
+    - [Exceptions](#exceptions)
     - [Collections](#collections)
     - [Generics](#generics)
     - [Annotations](#annotations)
-      - [Lombok](#lombok)
     - [Stream API vs LINQ](#stream-api-vs-linq)
 - [First console application](#first-console-application)
 - [Unit testing](#unit-testing)
 - [Logging](#logging)
 - [Web](#web)
-  - [Spring vs ASP .NET Framework](#pring-vs-asp-net-framework)
+  - [Spring vs ASP .NET Framework](#spring-vs-asp-net-framework)
     - [Spring boot and starters](#spring-boot-and-starters)
+    - [First web application](#first-web-application)
     - [12 factor](#12-factor)
-  - [ORM](#orm)
-    - [Hibernate](#hibernate)
-  - [Template language](#template-language)
-  - [First web application](#first-web-application)
-  - [Object mapping](#object-mapping)
+    - [Template language](#template-language)
+- [ORM](#orm)
+  - [JDBC](#jdbc)
+  - [JPA](#jpa)
+  - [Hibernate](#hibernate)
+    - [Entity states](#entity-states)
+    - [N+1 problem](#n+1)
+- [Utils](#utils)
+  - [Objects mapping](#objects-mapping)
+  - [Lombok](#lombok)
 - [Advanced](#advanced)
   - [Memory model](#memory-model)
   - [Concurrency](#concurrency)
@@ -97,6 +104,10 @@ The diagram below depicts building and running Java archive (jar)
 
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
+[Object](https://docs.oracle.com/javase/tutorial/java/concepts/object.html)
+
+[Object methods](https://docs.oracle.com/javase/tutorial/java/IandI/objectclass.html)
+
 ### Core
 Recommended books
 - [Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-dp-0134685997/dp/0134685997/ref=dp_ob_image_bk)
@@ -104,8 +115,17 @@ Recommended books
 
 [Tutorial](https://www.digitalocean.com/community/tutorials/core-java-tutorial)
 
-#### Collections
+#### Objects equality
+[Equals and hashcode](https://www.digitalocean.com/community/tutorials/java-equals-hashcode)
 
+![](./doc/images/java-comparable-vs-comparator.png)
+
+#### Exceptions
+![](https://www.logicbig.com/tutorials/core-java-tutorial/java-language/checked-unchecked-exceptions/images/diff.png)
+
+[Tutorial](https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html)
+
+#### Collections
 ![Collections](./doc/images/java-collections.png)
 [Tutorial](https://docs.oracle.com/javase/tutorial/collections/interfaces/index.html)
 
@@ -119,10 +139,6 @@ Stream API [#1](https://www.oracle.com/technical-resources/articles/java/ma14-ja
 
 #### Annotations
 [Tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/)
-
-##### Lombok
-[Project lombok](https://projectlombok.org/) is an annotation-based Java library that allows you to reduce boilerplate code using code generation.
-Alternative solution can be [records introduced in Java 14](https://docs.oracle.com/en/java/javase/14/language/records.html).
 
 ### First console application
 Maven project structure, detailed [see](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
@@ -231,9 +247,16 @@ Results :
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 ```
 
-
 ### Logging
-TODO
+[Built in](https://docs.oracle.com/javase/8/docs/technotes/guides/logging/overview.html#a1.0)
+
+[SLF4J as logging facade](https://www.slf4j.org/manual.html) 
+
+![](./doc/images/java-slf4j.png)
+
+[Log4j2](https://logging.apache.org/log4j/2.x/)
+
+[Logback](https://logback.qos.ch/)
 
 ### Web
 [Spring overview](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/overview.html)
@@ -248,24 +271,53 @@ Main concepts
 
 #### Spring vs ASP .NET Framework
 [Comparison](https://medium.com/@putuprema/spring-boot-vs-asp-net-core-a-showdown-1d38b89c6c2d)
+
 ##### Spring boot and starters
 TODO
+
+#### First web application
+TODO
+
 ##### 12 factor
 [Origin](https://12factor.net/)
 
 [Cloud Native Apps](https://www.infoq.com/presentations/12factor-spring/)
 
-#### ORM
-##### Hibernate
-TODO
-Entity states
 #### Template language
-Thymeleaf
-#### First web application
-TODO
-#### Object mapping
-MapStruct
-9Jackson
+[Mustache](https://spring.io/blog/2016/11/21/the-joy-of-mustache-server-side-templates-for-the-jvm)
+
+[Thymeleaf](https://spring.io/guides/gs/serving-web-content/)
+### ORM
+![](./doc/images/orm-jdbc.png)
+
+#### JDBC
+[What is JDBC?](https://www.infoworld.com/article/3388036/what-is-jdbc-introduction-to-java-database-connectivity.html)
+[Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html)
+
+#### JPA
+[What is JPA?](https://www.infoworld.com/article/3379043/what-is-jpa-introduction-to-the-java-persistence-api.html)
+
+#### Hibernate
+[Recommended blog](https://vladmihalcea.com/blog/)
+
+##### Entity states
+![](https://vladmihalcea.com/wp-content/uploads/2014/07/jpaentitystates.png)
+[Article](https://vladmihalcea.com/wp-content/uploads/2014/07/jpaentitystates.png)
+
+##### N+1 problem
+[Article](https://vladmihalcea.com/a-beginners-guide-to-jpa-hibernate-entity-state-transitions/)
+
+### Utils
+#### Objects mapping
+[JSON for Java](https://github.com/FasterXML/jackson)
+
+[Jackson tutorial](https://www.digitalocean.com/community/tutorials/jackson-json-java-parser-api-example-tutorial)
+
+[Java bean mappings](https://mapstruct.org/)
+
+#### Lombok
+[Project lombok](https://projectlombok.org/) is an annotation-based Java library that allows you to reduce boilerplate code using code generation.
+Alternative solution can be [records introduced in Java 14](https://docs.oracle.com/en/java/javase/14/language/records.html).
 
 ### Advanced
 
