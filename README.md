@@ -1,4 +1,6 @@
 # Transition .NET Framework to Java developer guide
+
+Write once, run anywhere (c)
 ## How to use
 <!-- TOC -->
 - [Preparation](#preparation)
@@ -75,9 +77,10 @@ Comparison with .NET Framework
 
 ![https://www.overops.com/blog/clr-vs-jvm-how-the-battle-between-net-and-java-extends-to-the-vm-level](./doc/images/java-vs-dotnet.png "")
 
-JVM more info
-[link#1](https://dzone.com/articles/jvm-architecture-explained) 
-[link#2](https://docs.oracle.com/javase/specs/jvms/se11/html/jvms-2.html)
+More info
+ - [Classloader subsystem](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/ClassLoader.html)
+ - [JVM architecture](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html) 
+ - [Spec](https://docs.oracle.com/javase/specs/jvms/se11/html/jvms-2.html)
 
 ### Build tools
 
@@ -274,6 +277,7 @@ Main concepts
 
 ##### Spring boot and starters
 TODO
+data,webmvc,security?
 
 #### First web application
 TODO
@@ -292,6 +296,7 @@ TODO
 
 #### JDBC
 [What is JDBC?](https://www.infoworld.com/article/3388036/what-is-jdbc-introduction-to-java-database-connectivity.html)
+
 [Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html)
 
 #### JPA
@@ -301,10 +306,12 @@ TODO
 [Recommended blog](https://vladmihalcea.com/blog/)
 
 ##### Entity states
+
 ![](https://vladmihalcea.com/wp-content/uploads/2014/07/jpaentitystates.png)
 [Article](https://vladmihalcea.com/wp-content/uploads/2014/07/jpaentitystates.png)
 
 ##### N+1 problem
+
 [Article](https://vladmihalcea.com/a-beginners-guide-to-jpa-hibernate-entity-state-transitions/)
 
 ### Utils
@@ -327,6 +334,9 @@ TODO
 #### Concurrency
 Recommended books
  - [Concurrency in Practice](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601)
+
+[Tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html)
+Thread model vs?
 
 #### Troubleshooting
 [Guide](https://docs.oracle.com/en/java/javase/11/troubleshoot/index.html)
