@@ -276,8 +276,10 @@ Main concepts
 [Comparison](https://medium.com/@putuprema/spring-boot-vs-asp-net-core-a-showdown-1d38b89c6c2d)
 
 ##### Spring boot and starters
-TODO
-data,webmvc,security?
+
+[Overview](https://spring.io/projects/spring-boot)
+
+[Article](https://www.ibm.com/topics/java-spring-boot)
 
 #### First web application
 TODO
