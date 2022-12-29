@@ -15,6 +15,7 @@ Write once, run anywhere (c)
     - [Generics](#generics)
     - [Annotations](#annotations)
     - [Stream API vs LINQ](#stream-api-vs-linq)
+    - [Optional](#optional)
 - [First console application](#first-console-application)
 - [Unit testing](#unit-testing)
 - [Logging](#logging)
@@ -24,6 +25,7 @@ Write once, run anywhere (c)
     - [First web application](#first-web-application)
     - [12 factor](#12-factor)
     - [Template language](#template-language)
+    - [Observability](#observability)
 - [ORM](#orm)
   - [JDBC](#jdbc)
   - [JPA](#jpa)
@@ -139,7 +141,7 @@ Recommended books
 
 Stream API [#1](https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html) [#2](https://www.oracle.com/technical-resources/articles/java/architect-streams-pt2.html) 
 
-[Optional - avoiding null checks](https://www.oracle.com/technical-resources/articles/java/java8-optional.html)
+[Optional](https://www.oracle.com/technical-resources/articles/java/java8-optional.html)
 
 #### Annotations
 [Tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/)
@@ -294,6 +296,15 @@ TODO
 [Mustache](https://spring.io/blog/2016/11/21/the-joy-of-mustache-server-side-templates-for-the-jvm)
 
 [Thymeleaf](https://spring.io/guides/gs/serving-web-content/)
+
+#### Observability
+
+[Zipkin](https://tanzu.vmware.com/developer/guides/spring-zipkin/)
+
+[Jaeger](https://github.com/opentracing-contrib/java-spring-jaeger)
+
+[Application metrics](https://spring.io/blog/2018/03/16/micrometer-spring-boot-2-s-new-application-metrics-collector#what-do-i-get-out-of-the-box)
+
 ### ORM
 ![](./doc/images/orm-jdbc.png)
 
