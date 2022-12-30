@@ -16,6 +16,7 @@ Write once, run anywhere (c)
     - [Annotations](#annotations)
     - [Stream API vs LINQ](#stream-api-vs-linq)
     - [Optional](#optional)
+    - [Date time](#datetime)
 - [First console application](#first-console-application)
 - [Unit testing](#unit-testing)
 - [Logging](#logging)
@@ -38,7 +39,7 @@ Write once, run anywhere (c)
 - [Advanced](#advanced)
   - [Concurrency](#concurrency)
   - [Troubleshooting](#troubleshooting)
-  - [Architecture](#Architecture)
+  - [Architecture](#architecture)
 <!-- TOC -->
 
 ### Preparation
@@ -143,6 +144,8 @@ Stream API [#1](https://www.oracle.com/technical-resources/articles/java/ma14-ja
 
 [Optional](https://www.oracle.com/technical-resources/articles/java/java8-optional.html)
 
+[Date time](https://docs.oracle.com/javase/tutorial/datetime/iso/overview.html)
+
 #### Annotations
 [Tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/)
 
@@ -200,7 +203,7 @@ public class BasicCalculator {
 }
 ```
 
-In order to test at least 1 positive and 1 negative paths, we can create something like this:
+In order to test at least 1 positive and 1 negative scenarios, we can create something like this:
 `dotnet2java\java\console-app\src\test\java\com\mycompany\app\BasicCalculatorTest.java`
 ```java
 package com.mycompany.app;
