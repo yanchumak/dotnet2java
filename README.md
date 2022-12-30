@@ -21,7 +21,8 @@ Write once, run anywhere (c)
 - [Unit testing](#unit-testing)
 - [Logging](#logging)
 - [Web](#web)
-  - [Spring vs ASP .NET Framework](#spring-vs-asp-net-framework)
+  - [Spring](#spring)
+    - [Spring vs ASP .NET Framework](#spring-vs-asp-net-framework)
     - [Spring boot and starters](#spring-boot-and-starters)
     - [First web application](#first-web-application)
     - [12 factor](#12-factor)
@@ -274,6 +275,7 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 [Logback](https://logback.qos.ch/)
 
 ### Web
+#### Spring
 [Spring overview](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/overview.html)
 
 ![](https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/images/spring-overview.png)
@@ -284,7 +286,7 @@ Main concepts
 - Beans [scopes](https://docs.spring.io/spring-framework/docs/3.0.0.M3/reference/html/ch04s04.html)
   ![](https://i.stack.imgur.com/gL8Ky.jpg)
 
-#### Spring vs ASP .NET Framework
+##### Spring vs ASP .NET Framework
 [Comparison](https://medium.com/@putuprema/spring-boot-vs-asp-net-core-a-showdown-1d38b89c6c2d)
 
 ##### Spring boot and starters
