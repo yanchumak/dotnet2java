@@ -79,10 +79,16 @@ Comparison with .NET Framework
 
 ![https://www.overops.com/blog/clr-vs-jvm-how-the-battle-between-net-and-java-extends-to-the-vm-level](./doc/images/java-vs-dotnet.png "")
 
-More info
+More info about JVM
  - [Classloader subsystem](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/ClassLoader.html)
  - [JVM architecture](https://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html) 
  - [Spec](https://docs.oracle.com/javase/specs/jvms/se11/html/jvms-2.html)
+
+[Release cycle](https://www.infoq.com/news/2017/09/Java6Month/)
+
+[Most commonly available JDKs](https://blog.frankel.ch/common-jdks/)
+
+[Difference between OpenJDK and Adoptium/AdoptOpenJDK](https://stackoverflow.com/questions/52431764/difference-between-openjdk-and-adoptium-adoptopenjdk)
 
 ### Build tools
 
@@ -119,7 +125,7 @@ Recommended books
 - [Modern Java in action](https://www.manning.com/books/modern-java-in-action)
 
 [Tutorial](https://www.digitalocean.com/community/tutorials/core-java-tutorial)
-
+[Java language updates](https://docs.oracle.com/en/java/javase/19/language/java-language-changes.html)
 #### Objects equality
 [Equals and hashcode](https://www.digitalocean.com/community/tutorials/java-equals-hashcode)
 
