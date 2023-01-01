@@ -157,9 +157,10 @@ Stream API [#1](https://www.oracle.com/technical-resources/articles/java/ma14-ja
 [Tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/)
 
 ### First console application
-Maven project structure, detailed [see](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 
-[Intellij IDEA | Creating a Maven project](https://www.jetbrains.com/idea/guide/tutorials/working-with-maven/creating-a-project/) 
+[Intellij IDEA | Creating a Maven project](https://www.jetbrains.com/idea/guide/tutorials/working-with-maven/creating-a-project/)
+
+Maven project structure, detailed [see](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 
 ![](./doc/images/maven-project-structure.png)
 
