@@ -159,6 +159,8 @@ Stream API [#1](https://www.oracle.com/technical-resources/articles/java/ma14-ja
 ### First console application
 Maven project structure, detailed [see](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 
+[Intellij IDEA | Creating a Maven project](https://www.jetbrains.com/idea/guide/tutorials/working-with-maven/creating-a-project/) 
+
 ![](./doc/images/maven-project-structure.png)
 
 `dotnet2java\java\console-app\src\main\java\com\mycompany\app\HelloWorldApp.java`
@@ -171,21 +173,22 @@ public class HelloWorldApp {
 }
 ```
 How to run
+1. [IntelliJ IDEA](https://www.jetbrains.com/help/idea/delegate-build-and-run-actions-to-maven.html) 
+2. Console
+   1. Make sure that you are in `console-app` folder
+       ```
+       $ pwd
+       /code/dotnet2java/java/console-app
+       ```
+   2. Run maven to build jar 
+      ```
+      mvn clean package
+      ```
 
-1. Make sure that you are in `console-app` folder
-    ```
-    $ pwd
-    /code/dotnet2java/java/console-app
-    ```
-2. Run maven to build jar 
-   ```
-   mvn clean package
-   ```
-
-3. Run Java program
-    ```
-    java -cp  ./target/console-app-1.0-SNAPSHOT.jar com.mycompany.app.HelloWorldApp
-    ```
+   3. Run Java program
+       ```
+       java -cp  ./target/console-app-1.0-SNAPSHOT.jar com.mycompany.app.HelloWorldApp
+       ```
 
 [A Closer Look at the "Hello World!" Application](https://docs.oracle.com/javase/tutorial/getStarted/application/index.html)
 ### Unit testing
