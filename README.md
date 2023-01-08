@@ -109,6 +109,9 @@ The diagram below depicts building and running Java archive (jar)
 
 [Lifecycles](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
 
+Courses
+ - [Maven Fundamentals](https://app.pluralsight.com/library/courses/maven-fundamentals/table-of-contents)
+
 ### Basics
 [Language basics](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 
@@ -124,6 +127,13 @@ The diagram below depicts building and running Java archive (jar)
 Recommended books
 - [Effective Java](https://www.amazon.com/Effective-Java-Joshua-Bloch-dp-0134685997/dp/0134685997/ref=dp_ob_image_bk)
 - [Modern Java in action](https://www.manning.com/books/modern-java-in-action)
+
+Courses
+ - [Java Programming Masterclass updated to Java 17](https://www.udemy.com/course/java-the-complete-java-developer-course/)
+ - [Java SE 17 Fundamentals](https://app.pluralsight.com/library/courses/java-se-17-fundamentals/table-of-contents)
+ - [Java Fundamentals: Object-oriented Design](https://app.pluralsight.com/library/courses/java-fundamentals-object-oriented-design/table-of-contents)
+ - [Streams, Collectors, and Optionals for Data Processing in Java 8](https://app.pluralsight.com/library/courses/java-8-data-processing-streams-collectors-optionals/table-of-contents)
+ - [Java Coding Practices](https://app.pluralsight.com/paths/skill/java-coding-practices)
 
 [Tutorial](https://www.digitalocean.com/community/tutorials/core-java-tutorial)
 [Java language updates](https://docs.oracle.com/en/java/javase/19/language/java-language-changes.html)
@@ -283,6 +293,16 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 [Spring overview](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/overview.html)
 
 ![](https://docs.spring.io/spring-framework/docs/3.0.x/spring-framework-reference/html/images/spring-overview.png)
+
+Courses
+ - [Spring framework: Core Spring](https://app.pluralsight.com/paths/skills/spring-framework-core-spring)
+ - [Spring Framework: Building Web Applications and Services](https://app.pluralsight.com/paths/skill/spring-framework-building-web-applications-and-services)
+ - [Spring Framework: Securing Spring Applications](https://app.pluralsight.com/paths/skill/spring-framework-securing-spring-applications)
+ - [Spring Framework: Spring Data JPA 5 with Hibernate](https://app.pluralsight.com/library/courses/spring-jpa-hibernate/table-of-contents)
+ - [Spring Boot 2: The Big Picture](https://app.pluralsight.com/library/courses/spring-boot-2-big-picture/table-of-contents)
+ - [Spring Framework 2: Creating Your First Spring Boot Application](https://app.pluralsight.com/library/courses/creating-first-spring-boot-application/table-of-contents)
+ - [Spring Cloud Fundamentals](https://app.pluralsight.com/library/courses/spring-cloud-fundamentals/table-of-contents)
+
 
 Main concepts
 - [DI & IoC](https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/beans.html#beans-introduction)
